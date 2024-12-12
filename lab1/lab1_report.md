@@ -91,9 +91,9 @@ spec:
 Открываем страницу авторизации Vault `http://localhost:8200`.
 
 ### Поиск токена
-Чтобы найти токен для авторизации, открываем второй терминал и используем команду или `minikube kubectl -- logs service/vault`.
+Чтобы найти токен для авторизации, открываем второй терминал и используем команду `minikube kubectl -- logs service/vault`.
 
-> Root Token: hvs.LlAzp5F68hfi8M90qGBa7wPa
+> Root Token: hvs.4EhD9E1CRpRP4v0D5kv3pHQl
 
 ![Successful authorization](https://github.com/countenum404/2024_2025-introduction_to_distributed_technologies-k4111c-shabashov_d_i/blob/main/img/lab1/vault.png 'Successful authorization')
 
