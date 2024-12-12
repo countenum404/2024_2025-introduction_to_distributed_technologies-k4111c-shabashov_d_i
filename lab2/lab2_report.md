@@ -95,8 +95,6 @@ spec:
 
 Пробрасываем локальный порт на порт контейнера - `minikube kubectl -- port-forward service/frontend-service 3000:3000`.
 
-![Port-forward](https://github.com/AnatoliyBr/2022_2023-introduction_to_distributed_technologies-k4111c-briushinin_a_a/blob/master/lab2/images/port_forward.png 'Port-forward')
-
 Открываем страницу `http://localhost:3000`.
 
 ![Frontend page](https://github.com/countenum404/2024_2025-introduction_to_distributed_technologies-k4111c-shabashov_d_i/blob/main/img/lab2/result.png 'Frontend page')
