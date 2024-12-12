@@ -90,18 +90,16 @@ spec:
 
 Открываем страницу авторизации Vault `http://localhost:8200`.
 
-![Vault page]('Vault page')
-
 ### Поиск токена
-Чтобы найти токен для авторизации, открываем второй терминал и используем команду ~~`docker logs vault`~~ или `minikube kubectl -- logs service/vault`.
+Чтобы найти токен для авторизации, открываем второй терминал и используем команду или `minikube kubectl -- logs service/vault`.
 
 > Root Token: hvs.LlAzp5F68hfi8M90qGBa7wPa
 
-![Successful authorization]( 'Successful authorization')
+![Successful authorization](https://github.com/countenum404/2024_2025-introduction_to_distributed_technologies-k4111c-shabashov_d_i/blob/main/img/lab1/vault.png 'Successful authorization')
 
 Работа выполнена - останавливаем узел командой `minikube stop`.
 
 ### Диаграмма
 Схема организации контейнера и сервиса, нарисованная в [draw.io](https://app.diagrams.net/).
 
-![Диаграмма]( 'Диаграмма')
+![Диаграмма](https://github.com/countenum404/2024_2025-introduction_to_distributed_technologies-k4111c-shabashov_d_i/blob/main/img/lab1/lab1.drawio.png 'Диаграмма')
