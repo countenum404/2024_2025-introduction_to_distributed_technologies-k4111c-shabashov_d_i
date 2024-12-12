@@ -33,8 +33,6 @@ Deployment - ресурс K8S, который позволяет автомат�
 Создаем контейнер на основе образа itdt-contained-frontend - `docker run -d --name frontend-container ifilyaninitmo/itdt-contained-frontend:master`.
 Проверяем, что появился контейнер frontend_container - `docker ps -a`.  
 
-![Контейнер frontend-container](https://github.com/AnatoliyBr/2022_2023-introduction_to_distributed_technologies-k4111c-briushinin_a_a/blob/master/lab2/images/frontend-container.png 'Контейнер frontend-container')
-
 ### Создание Deployment
 
 Запускаем minikube - `minikube start`. Иначе **context (контекст)** будет не minikube, а другой - например docker-desktop, и после запуска minikube, ваше развертывание не будет видно.
