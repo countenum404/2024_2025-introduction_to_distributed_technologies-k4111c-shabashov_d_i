@@ -5,7 +5,7 @@ Year: 2024/2025
 Group: K4111с   
 Author: Shabashov Denis Igorevich   
 Lab: Laboratory Work No. 3 "Certificates and Secrets in Minikube, Secure Data Storage"
-Date of create: 12.01.2024  
+Date of create: 12.01.2025  
 Date of finished: 13.01.2025
 
 
