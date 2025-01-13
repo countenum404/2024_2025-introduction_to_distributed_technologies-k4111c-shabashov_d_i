@@ -111,3 +111,6 @@ spec:
 Запуск приложения в браузере:
 ![Скрин](https://github.com/countenum404/2024_2025-introduction_to_distributed_technologies-k4111c-shabashov_d_i/blob/main/img/lab3/firefox.png 'Скрин')
 
+### Диаграмма
+Схема организации ingress, service и подов нарисованная в [draw.io](https://app.diagrams.net/).
+![Диаграмма](https://github.com/countenum404/2024_2025-introduction_to_distributed_technologies-k4111c-shabashov_d_i/blob/main/img/lab3/lab3.drawio.png 'Диаграмма')
