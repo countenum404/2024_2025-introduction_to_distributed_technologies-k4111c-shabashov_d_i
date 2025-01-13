@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: reactapp
+data:
+  name: shabashov
+  value: itmo_2025

@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lab3-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: frontend-app-lab3
+  template:
+    metadata:
+      labels:
+        app: frontend-app-lab3
+    spec:
+      containers:
+      - name: frontend-app-lab2
+        image: ifilyaninitmo/itdt-contained-frontend:master
+        ports:
+        - containerPort: 3000
+        env:
+        - name: REACT_APP_USERNAME
+          valueFrom:
+            configMapKeyRef:
+              name: reactapp
+              key: name
+        - name: REACT_APP_COMPANY_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: reactapp
+              key: value
